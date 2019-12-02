@@ -1,7 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.wrapper {
-    
+.kub {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid black;
+}
+@media(max-width: 330px) {
+    .container {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 }
